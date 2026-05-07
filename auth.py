@@ -46,7 +46,7 @@ def hash_password(pwd: str) -> str:
 
 
 # ── DB local SQLite (swappable por Supabase) ──────────────────────
-DB_PATH = os.getenv("LIBRA_DB", "/home/claude/libra-backend/libra.db")
+DB_PATH = os.getenv("LIBRA_DB", "/app/libra.db")
 
 def get_db():
     conn = sqlite3.connect(DB_PATH)
