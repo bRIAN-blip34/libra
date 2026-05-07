@@ -14,7 +14,7 @@ from dataclasses import dataclass, asdict
 # ── JWT simple (sin librería extra) ──────────────────────────────
 import hmac, base64
 
-SECRET_KEY = os.getenv("LIBRA_SECRET", "libra-dev-secret-change-in-prod-2025")
+SECRET_KEY = os.getenv("LIBRA_SECRET", "B.reqw.23r4r4rt.4r4r4r5.hnjujtvvrddvv")
 CREATOR_EMAIL = os.getenv("CREATOR_EMAIL", "brianveron2@gmail.com")
 
 def _b64(data: bytes) -> str:
